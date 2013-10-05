@@ -9,6 +9,9 @@ gem 'sqlite3'
 # Use devise from github to handle login, logout and sign up
 gem 'devise'
 
+# Use simple_form from github to handle form building
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
