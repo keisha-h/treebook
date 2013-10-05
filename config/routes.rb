@@ -1,6 +1,8 @@
 Treebook::Application.routes.draw do
   resources :statuses
 
+  root to: 'statuses#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -41,7 +43,7 @@ Treebook::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
