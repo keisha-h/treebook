@@ -1,0 +1,6 @@
+keisha:
+  first_name: "Keisha"
+  last_name: "Heeralal"
+  email: "kheeralal@gmail.com"
+  profile_name: "kheeralal"
+  encrypted_password: ::BCrypt::Password.create("password")
