@@ -14,12 +14,12 @@ class StatusesControllerTest < ActionController::TestCase
   test "should get new" do
     get :new
     assert_response :redirect
-    assert_redirected_to login_path
+    assert_redirected_to new_user_session_path
   end
 
   test "should create status" do
     assert_difference('Status.count') do
-      post :create, status: { content: @status.content, name: @status.name }
+      post :create, status: { content: @status.content }
     end
 
     assert_redirected_to status_path(assigns(:status))
