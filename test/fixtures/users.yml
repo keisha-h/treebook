@@ -3,4 +3,9 @@ keisha:
   last_name: "Heeralal"
   email: "kheeralal@gmail.com"
   profile_name: "kheeralal"
-  encrypted_password: ::BCrypt::Password.create("password")
+
+jason:
+  first_name: "Jason"
+  last_name: "Seifer"
+  email: "jason@teamtreehouse.com"
+  profile_name: "jasonseifer"
