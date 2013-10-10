@@ -8,6 +8,9 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+# Use postgresql for production
+gem 'pg', group: :production
+
 # Use devise from github to handle login, logout and sign up
 gem 'devise'
 
